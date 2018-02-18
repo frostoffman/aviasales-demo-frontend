@@ -7,7 +7,7 @@ import DeskLayout from './Mobile/DeskLayout';
 
 const Application = styled.section`
   background: linear-gradient(137.4deg, #00b0de 4.18%, #196ebd 104.18%);
-  padding: 24px 12px 0 12px;
+  padding-top: 24px;
 `;
 
 const Content = styled.div`
@@ -26,7 +26,7 @@ const Information = styled.div`
   margin-bottom: 15px;
 
   @media (min-width: 768px) {
-    margin-left: 180px;
+    margin-left: 220px;
   }
 `;
 
@@ -45,7 +45,7 @@ const Title = styled.h2`
 `;
 
 const PhonePicture = styled.img`
-  margin-right: 15px;
+  margin-right: 8px;
 
   @media (min-width: 768px) {
     margin-bottom: 0px;
@@ -53,6 +53,7 @@ const PhonePicture = styled.img`
     justify-content: flex-start;
     position: absolute;
     bottom: 0;
+    min-height: 270px;
   }
 `;
 

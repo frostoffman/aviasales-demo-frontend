@@ -76,6 +76,8 @@ const Description = styled.p`
 `;
 
 const Button = styled.button`
+  display: flex;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
   border: none;

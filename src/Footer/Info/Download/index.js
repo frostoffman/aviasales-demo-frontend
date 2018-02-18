@@ -27,7 +27,7 @@ const Link = styled.a`
     margin-bottom: 0;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     margin-right: 10px;
     :last-of-type {
       margin-right: 0;
